@@ -101,3 +101,10 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# Firebase
+FirebaseDocID.txt
+
+# Personal
+.idea
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "761530192439",
+    "firebase_url": "https://sooin-medical.firebaseio.com",
+    "project_id": "sooin-medical",
+    "storage_bucket": "sooin-medical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761530192439:android:da26dc01f3d46b092ca5b2",
+        "android_client_info": {
+          "package_name": "cse.mobile.sooinmedical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761530192439-qvpanftllfbpi7jp2q2no4bvfvt9h0m3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cse.mobile.sooinmedical",
+            "certificate_hash": "f0a343ab919733860427658afe4a518d983a3469"
+          }
+        },
+        {
+          "client_id": "761530192439-4indd3b1a7lmfnb3o1bpd5gg1t76u6s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpYZtv6S1UJR8sigi5-5AuFLKHxl_ONIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761530192439-4indd3b1a7lmfnb3o1bpd5gg1t76u6s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

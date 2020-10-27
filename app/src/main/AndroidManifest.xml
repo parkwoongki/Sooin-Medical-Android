@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cse.mobile.sooinmedical">
+
+<!--    <uses-permission android:name="android.permission.SEND_SMS" />-->
+<!--    <uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+<!--    <uses-permission android:name="android.permission.CALL_PHONE" />-->
+    <uses-permission android:name="android.permission.INTENT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_sooin_medical_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_sooin_medical_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoadingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EmailPasswordActivity" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_register" />
+
+        <activity
+            android:name=".FindPasswordActivity"
+            android:label="비밀번호 찾기" />
+
+        <activity android:name=".DownloadActivity" />
+
+        <activity android:name=".ui.contact.LogInfoActivity" />
+
+        <activity android:name=".ui.contact.ContactSooInMedicalActivity" />
+
+        <activity android:name=".ui.contact.ContactSooInParkActivity" />
+
+        <activity android:name=".ui.contact.ContactEuChunParkActivity" />
+
+        <activity android:name=".ui.contact.PermitActivity" />
+
+        <activity android:name=".ui.contact.DeveloperInfoActivity" />
+
+        <activity android:name=".ui.contact.LicenseActivity" />
+
+        <activity android:name=".ui.contact.PrivacyPolicyActivity" />
+
+    </application>
+
+</manifest>
